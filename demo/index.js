@@ -1,18 +1,5 @@
-# express-latency-middleware
-Express route latency middleware and error tracker
-
-## Development
-
-```
-TELEMETRY_HOST=<Host> API_KEY=<API-KEY> node demo/index.js
-```
-
-## Usage
-
-```js
-
 const express = require("express");
-const TelemetryMiddleware = require("express-latency-middleware");
+const TelemetryMiddleware = require("../");
 
 const app = express();
 
@@ -34,4 +21,3 @@ app.listen(PORT, () => {
     console.log(`Server is app @ https://localhost:${PORT}`);
 });
 
-```

@@ -1,0 +1,14 @@
+{
+  "name": "express-latency-middleware",
+  "version": "1.0.0",
+  "description": "Express route latency and error telemetry middleware",
+  "main": "index.js",
+  "repository": "https://github.com/ashuverma/express-latency-middleware.git",
+  "author": "Ashu Verma <ashuverma@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.1"
+  }
+}
